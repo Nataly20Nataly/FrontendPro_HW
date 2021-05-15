@@ -18,7 +18,7 @@ const bigint = prompt("Add a long number (>16)", 5222457593127564);
 const action3 = prompt("Your a long number will be BigInt. Do u want to add?", "Add my bigint");
 
 
-const boolean = prompt("Compare any number", "2 > 6");
+const boolean = prompt("Compare any number", "6 > 2");
 const action6 = prompt("Is this right compare?", "Yes. Add boolean");
 
 
@@ -35,13 +35,13 @@ const object = {
 const action7 = prompt(
   "What kind of action do you want to get?",
   "Add my info in object"
-)
+);
 
 const symbol = prompt("Add something", "name");
 const action8 = prompt(
   "What kind of action do you want to get?",
   "Add my symbol"
-)
+);
 
 function addString(string) {
   result.push(string);
@@ -64,7 +64,7 @@ function addNull(Null) {
 }
 
 function addBoolean(boolean) {
-  result.push( Boolean(2>6));
+  result.push( Boolean(boolean));
 }
 
 function addObj(object) {
